@@ -1,0 +1,7 @@
+{
+  "name": "BDJ Alerts",
+  "short_name": "BDJ",
+  "start_url": "/BDJRatesPush/",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795"
+}

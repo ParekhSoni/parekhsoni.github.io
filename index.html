@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BDJ Alerts</title>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <link rel="manifest" href="manifest.json" />
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "c37c40c5-7c7e-48b8-b0a1-1fd3c826477b",
+        notifyButton: {
+          enable: true,
+        },
+        serviceWorkerPath: 'OneSignalSDKWorker.js',
+        serviceWorkerUpdaterPath: 'OneSignalSDKUpdaterWorker.js',
+      });
+    });
+  </script>
+</head>
+<body>
+  <h2>Subscribe to BDJ Alerts</h2>
+  <p>Click the bell icon to allow notifications.</p>
+</body>
+</html>
