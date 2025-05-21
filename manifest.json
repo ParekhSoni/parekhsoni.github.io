@@ -1,0 +1,16 @@
+{
+  "name": "BDJ Rates Push",
+  "short_name": "BDJPush",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Push notification subscription page",
+  "icons": [
+    {
+      "src": "https://onesignal.com/images/notification-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "gcm_sender_id": "482941778795"
+}
